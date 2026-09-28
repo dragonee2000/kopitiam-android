@@ -1,0 +1,25 @@
+# Gradle
+.gradle/
+.kotlin/
+build/
+/app/build/
+**/build/
+
+# Android build outputs
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Local machine config (absolute SDK path — never commit)
+local.properties
+
+# IDE
+.idea/
+*.iml
+captures/
+
+# macOS
+.DS_Store
+
+# NOTE: gradle/wrapper/gradle-wrapper.jar is intentionally committed (needed for CI).

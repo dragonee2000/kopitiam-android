@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- Shareable output lives in the app cache under /shared. -->
+    <cache-path name="shared" path="shared/" />
+    <files-path name="files" path="." />
+</paths>

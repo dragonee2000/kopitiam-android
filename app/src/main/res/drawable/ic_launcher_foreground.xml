@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Warm-kopi launcher foreground: one bold cream coffee-cup mark on the
+     brand-brown background. Kept inside the adaptive-icon safe zone (the
+     central ~66dp of the 108dp viewport) so no part is clipped by any mask.
+     Cream = #F7F1E8 (onBrand), steam accent = #C05621 (burnt orange). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Cup body: bold rounded mug -->
+    <path
+        android:fillColor="#F7F1E8"
+        android:pathData="M35,52 h34 v11 a13,13 0 0 1 -13,13 h-8 a13,13 0 0 1 -13,-13 z" />
+
+    <!-- Handle: bold ring on the right -->
+    <path
+        android:strokeColor="#F7F1E8"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M69,55 a8,8 0 0 1 0,16" />
+
+    <!-- Saucer: single confident rounded bar -->
+    <path
+        android:fillColor="#F7F1E8"
+        android:pathData="M33,80 h38 a2.5,2.5 0 0 1 0,5 h-38 a2.5,2.5 0 0 1 0,-5 z" />
+
+    <!-- Steam: two bold accent wisps rising from the cup -->
+    <path
+        android:strokeColor="#C05621"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M46,47 q5,-5 0,-10 q-5,-5 0,-10 M60,47 q5,-5 0,-10 q-5,-5 0,-10" />
+</vector>

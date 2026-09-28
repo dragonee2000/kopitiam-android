@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme: no ActionBar; Compose owns all UI. Warm-kopi
+         window background matches the light palette bg (#F7F1E8). -->
+    <style name="Theme.Kopitiam" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/kopi_bg</item>
+        <item name="android:statusBarColor">@color/kopi_bg</item>
+        <item name="android:navigationBarColor">@color/kopi_bg</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+    </style>
+
+    <!-- AndroidX core-splashscreen starting theme: minimal, brand-colored.
+         Solid brand-brown window with the launcher foreground (kopi cup) as the
+         splash icon. Hands off to Theme.Kopitiam once the app is ready. -->
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/kopi_brand</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+        <item name="postSplashScreenTheme">@style/Theme.Kopitiam</item>
+    </style>
+</resources>
